@@ -10,5 +10,4 @@ alias e='nvim'
 alias ssh='export TERM=xterm-256color && ssh'
 alias update='brew update && brew upgrade && rustup update'
 
-
-
+PS1='\[\033[01;33m\]󰽰 \[\033[00m\]'

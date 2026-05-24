@@ -9,53 +9,49 @@ after-startup-command = []
 
 [mode.main.binding]
 # Focus windows
-ctrl-h = 'focus left'
-ctrl-j = 'focus down'
-ctrl-k = 'focus up'
-ctrl-l = 'focus right'
+cmd-h = 'focus left'
+cmd-j = 'focus down'
+cmd-k = 'focus up'
+cmd-l = 'focus right'
 
 # Move windows
-ctrl-shift-h = 'move left'
-ctrl-shift-j = 'move down'
-ctrl-shift-k = 'move up'
-ctrl-shift-l = 'move right'
+cmd-shift-h = 'move left'
+cmd-shift-j = 'move down'
+cmd-shift-k = 'move up'
+cmd-shift-l = 'move right'
 
 # Resize
-ctrl-shift-minus = 'resize smart -50'
-ctrl-shift-equal = 'resize smart +50'
+cmd-minus = 'resize smart -50'
+cmd-equal = 'resize smart +50'
 
 # Workspaces
-ctrl-1 = 'workspace 1'
-ctrl-2 = 'workspace 2'
-ctrl-3 = 'workspace 3'
-ctrl-4 = 'workspace 4'
-ctrl-5 = 'workspace 5'
-ctrl-6 = 'workspace 6'
+cmd-1 = 'workspace 1'
+cmd-2 = 'workspace 2'
+cmd-3 = 'workspace 3'
+cmd-4 = 'workspace 4'
+cmd-5 = 'workspace 5'
+cmd-6 = 'workspace 6'
 
 # Move window to workspace
-ctrl-shift-1 = 'move-node-to-workspace 1'
-ctrl-shift-2 = 'move-node-to-workspace 2'
-ctrl-shift-3 = 'move-node-to-workspace 3'
-ctrl-shift-4 = 'move-node-to-workspace 4'
-ctrl-shift-5 = 'move-node-to-workspace 5'
-ctrl-shift-6 = 'move-node-to-workspace 6'
+cmd-shift-1 = 'move-node-to-workspace 1'
+cmd-shift-2 = 'move-node-to-workspace 2'
+cmd-shift-3 = 'move-node-to-workspace 3'
+cmd-shift-4 = 'move-node-to-workspace 4'
+cmd-shift-5 = 'move-node-to-workspace 5'
+cmd-shift-6 = 'move-node-to-workspace 6'
 
 # Layout
-ctrl-f = 'layout floating tiling'        # toggle floating/tiling
-ctrl-t = 'layout tiles horizontal vertical'
-ctrl-shift-t = 'layout accordion horizontal vertical'
-
-# Split
-ctrl-s = 'layout v_accordion'
-ctrl-shift-s = 'layout h_accordion'
+cmd-f = 'layout floating tiling'        # toggle floating/tiling
+cmd-t = 'layout tiles horizontal vertical'
+cmd-s = 'layout accordion horizontal vertical'
 
 # Fullscreen
-ctrl-m = 'fullscreen'
+cmd-m = 'fullscreen'
 
 # Reload config
-ctrl-shift-r = 'reload-config'
+cmd-shift-r = 'reload-config'
 
-ctrl-enter = 'exec-and-forget open -n -a Alacritty'
+cmd-enter = 'exec-and-forget open -n -a Alacritty'
 
 [gaps]
 inner.horizontal = 0
