@@ -1,0 +1,66 @@
+# Enable tiling by default
+default-root-container-layout = 'tiles'
+default-root-container-orientation = 'auto'
+
+# Start at login
+start-at-login = true
+after-login-command = []
+after-startup-command = []
+
+[mode.main.binding]
+# Focus windows
+ctrl-h = 'focus left'
+ctrl-j = 'focus down'
+ctrl-k = 'focus up'
+ctrl-l = 'focus right'
+
+# Move windows
+ctrl-shift-h = 'move left'
+ctrl-shift-j = 'move down'
+ctrl-shift-k = 'move up'
+ctrl-shift-l = 'move right'
+
+# Resize
+ctrl-shift-minus = 'resize smart -50'
+ctrl-shift-equal = 'resize smart +50'
+
+# Workspaces
+ctrl-1 = 'workspace 1'
+ctrl-2 = 'workspace 2'
+ctrl-3 = 'workspace 3'
+ctrl-4 = 'workspace 4'
+ctrl-5 = 'workspace 5'
+ctrl-6 = 'workspace 6'
+
+# Move window to workspace
+ctrl-shift-1 = 'move-node-to-workspace 1'
+ctrl-shift-2 = 'move-node-to-workspace 2'
+ctrl-shift-3 = 'move-node-to-workspace 3'
+ctrl-shift-4 = 'move-node-to-workspace 4'
+ctrl-shift-5 = 'move-node-to-workspace 5'
+ctrl-shift-6 = 'move-node-to-workspace 6'
+
+# Layout
+ctrl-f = 'layout floating tiling'        # toggle floating/tiling
+ctrl-t = 'layout tiles horizontal vertical'
+ctrl-shift-t = 'layout accordion horizontal vertical'
+
+# Split
+ctrl-s = 'layout v_accordion'
+ctrl-shift-s = 'layout h_accordion'
+
+# Fullscreen
+ctrl-m = 'fullscreen'
+
+# Reload config
+ctrl-shift-r = 'reload-config'
+
+ctrl-enter = 'exec-and-forget open -n -a Alacritty'
+
+[gaps]
+inner.horizontal = 0
+inner.vertical   = 0
+outer.left       = 0
+outer.right      = 0
+outer.top        = 0
+outer.bottom     = 0
