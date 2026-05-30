@@ -41,12 +41,12 @@ cmd-shift-5 = 'move-node-to-workspace 5'
 cmd-shift-6 = 'move-node-to-workspace 6'
 
 # Layout
-cmd-f = 'layout floating tiling'        # toggle floating/tiling
-cmd-t = 'layout tiles horizontal vertical'
-cmd-s = 'layout accordion horizontal vertical'
+cmd-shift-f = 'layout floating tiling'        # toggle floating/tiling
+cmd-shift-t = 'layout tiles horizontal vertical'
+cmd-shift-s = 'layout accordion horizontal vertical'
 
 # Fullscreen
-cmd-m = 'fullscreen'
+cmd-shift-m = 'fullscreen'
 
 # Reload config
 cmd-shift-r = 'reload-config'

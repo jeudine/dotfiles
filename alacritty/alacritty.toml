@@ -31,7 +31,7 @@ style = "Beam"
 vi_mode_style = "Block"
 
 [font]
-size = 15
+size = 17
 
 [font.bold]
 family = "FiraCode Nerd Font"
