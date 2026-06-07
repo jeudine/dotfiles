@@ -13,6 +13,7 @@ cmd-h = 'focus left'
 cmd-j = 'focus down'
 cmd-k = 'focus up'
 cmd-l = 'focus right'
+cmd-q = 'close'
 
 # Move windows
 cmd-shift-h = 'move left'
