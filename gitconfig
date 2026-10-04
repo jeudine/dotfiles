@@ -5,3 +5,15 @@
 	excludesfile = ~/.gitignore_global
 [pull]
 	rebase = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Julien Eudine
+	email = julien@eudine.fr
+[safe]
+	directory = /Users/julien/workspace/mseq_pcb_tb
+	directory = /Users/julien/workspace/mseq_pcb
+	directory = /Users/julien/workspace/wave_z
