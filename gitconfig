@@ -13,7 +13,3 @@
 [user]
 	name = Julien Eudine
 	email = julien@eudine.fr
-[safe]
-	directory = /Users/julien/workspace/mseq_pcb_tb
-	directory = /Users/julien/workspace/mseq_pcb
-	directory = /Users/julien/workspace/wave_z
